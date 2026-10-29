@@ -5,7 +5,8 @@ Checked October 29, 2026. These checks establish a small packaging and behaviora
 ## Skill and installation
 
 - Skill-creator validation passed for the name, frontmatter and instruction file.
-- A fresh project-local Skills CLI installation from the candidate directory succeeded for Claude Code and Codex; all six installed source files matched. This was a local-path install, not a public GitHub install.
+- Fresh project-local Skills CLI installations from both the local candidate and the published GitHub repository succeeded for Claude Code and Codex; all six installed source files matched and their bundled Markdown links resolved.
+- Anonymous HTTP requests to the public repository and pinned skill/setup source succeeded without authentication; source bytes matched the reviewed commit.
 - Bundled Markdown reference links resolved. Current Google primary documentation was checked for helpful content, canonical URLs, sitemap dates, structured data and scaled-content guidance.
 - The source was manually reviewed and scanned for private identifiers and common secret formats; no private application code, analytics exports, credentials or machine paths were included. Pattern checks are not a guarantee against every possible sensitive value.
 
@@ -23,4 +24,4 @@ The fixture is a disposable local evaluation project, not an application bundled
 
 ## Not established
 
-A separate live Claude Code behavioral run, public GitHub-source installation, production deployment/indexing, real-device and assistive-technology testing, search-volume accuracy, conversion lift and rankings are not established by this local check. There were no paid API calls, account changes or social publications. Model use and capabilities depend on the reader's existing agent and services.
+A separate live Claude Code behavioral run, production deployment/indexing, real-device and assistive-technology testing, search-volume accuracy, conversion lift and rankings are not established by this local check. There were no paid API calls, analytics-account changes, deployments or social publications. Model use and capabilities depend on the reader's existing agent and services.
